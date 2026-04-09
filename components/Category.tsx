@@ -68,8 +68,8 @@ const Category = () => {
                 </div>
             </div>
             <div className='flex flex-row justify-between'>
-                <Image src="/girl-dress (1).jpg" alt="girl-dress" width={190} height={220} />
-                <Image src="/girl-dress (1).jpg" alt="girl-dress" width={190} height={220} />
+                <Image src="/girl-dress2.jpg" alt="girl-dress" width={190} height={220} />
+                <Image src="/girl-dress2.jpg" alt="girl-dress" width={190} height={220} />
             </div>
 
         </div>

@@ -1,13 +1,5 @@
-"use client";
-import { CiBellOn } from "react-icons/ci";
-import { IoIosHelpCircleOutline } from "react-icons/io";
-import { IoIosInformationCircleOutline } from "react-icons/io";
-import { FaUserCircle } from "react-icons/fa";
-import { useEffect, useState } from "react";
 import Link from "next/link";
-import { IoLogInOutline } from "react-icons/io5";
 import HamburgerMenu from "./HamburgerMenu";
-import { LogoutButton } from "./logout-button";
 import { Ballet } from "next/font/google";
 
 const ballet = Ballet({
@@ -17,17 +9,6 @@ const ballet = Ballet({
 
 
 export default function Header() {
-
-  const [isLogin, setIsLogin] = useState(false);
-  const [accountModalOpen, setAccountModalOpen] = useState(false);
-
-  const handleMenuClick = (label: string) => {
-    if (label === "account") {
-      setAccountModalOpen(!accountModalOpen);
-      console.log("accountModalOpen:", accountModalOpen);
-    }
-  }
-
 
   return (
     <header>
