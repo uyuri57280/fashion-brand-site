@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black mt-16">
+      <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black mt-16 mb-32">
         <MainContent />
         <Category />
         {/* <NewIn />
