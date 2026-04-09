@@ -32,6 +32,10 @@ const menuItems = [
     label: 'COLLECTION',
     href: '/',
   },
+  {
+    label: 'CONCEPT',
+    href: '/main/concept',
+  },
 ]
 
 export default function HamburgerMenu() {

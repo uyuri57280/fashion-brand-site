@@ -39,10 +39,7 @@ export default function Header() {
           
           <Link href="/main/home" className="flex gap-5">
             <p className={`${ballet.className} font-sans text-2xl`} >
-              Twilight
-            </p>
-            <p className={`${ballet.className} font-sans text-2xl`} >
-              Muse
+              Lumie
             </p>
           </Link>
 

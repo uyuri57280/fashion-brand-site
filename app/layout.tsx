@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Fashion Brand Site",
   description: "This is a fashion brand site",
+  icons: {
+    icon: "/LUMIEロゴ.png",
+  },
 };
 
 export default function RootLayout({
