@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <header>
       <nav className="fixed top-0 left-0 z-40 w-full flex flex-col justify-between">
-        <div className="shadow-xl h-16 flex justify-center items-center p-4 bg-white relative">
+        <div className="shadow-xl h-16 flex justify-center items-center p-4 bg-sky-50 relative">
           <div className="absolute left-4">
             <HamburgerMenu />
           </div>

@@ -43,7 +43,7 @@ const categories2 = [
         href: '/',
     },
     {
-        name: 'Limited',
+        name: 'Special',
         href: '/',
     },
 ]

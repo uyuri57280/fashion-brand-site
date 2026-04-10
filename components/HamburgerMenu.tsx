@@ -3,9 +3,6 @@
 import Link from "next/link";
 import { useEffect, useState } from "react"
 import { LuMenu } from "react-icons/lu";
-import { PiDna } from "react-icons/pi";
-import { IoHomeOutline } from "react-icons/io5";
-import { TiShoppingCart } from "react-icons/ti";
 
 const menuItems = [
   {
@@ -30,7 +27,7 @@ const menuItems = [
   },
   {
     label: 'COLLECTION',
-    href: '/',
+    href: '/main/collection',
   },
   {
     label: 'CONCEPT',
